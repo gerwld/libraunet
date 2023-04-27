@@ -1,4 +1,4 @@
-# Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
+# Libraunet [![Circle CI](https://circleci.com/gh/bencentra/Libraunet/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/Libraunet/tree/master)
 
 A simple yet classy theme for your Jekyll website or blog. Customizable to fit your style or brand.
 
@@ -11,7 +11,7 @@ Built with these awesome libraries:
 * [HighlightJS][highlightjs]
 * [Lightbox][lightbox]
 
-Here's a [demo](http://bencentra.com/centrarium). It also works on [GitHub Pages](http://bencentra.github.io/centrarium/). I also use it for [my own website][bencentra].
+Here's a [demo](http://bencentra.com/Libraunet). It also works on [GitHub Pages](http://bencentra.github.io/Libraunet/). I also use it for [my own website][bencentra].
 
 Inspired by dirkfabisch's [Mediator](https://github.com/dirkfabisch/mediator) theme, which I previously used for my own blog, as well as [Type Theme](http://rohanchandra.github.io/type-theme/).
 
@@ -32,7 +32,7 @@ This theme comes with a number of features, including:
 
 ## Installation
 
-If you're just getting started with Jekyll, you can use this repository as a starting point for your own site. Just [download this project](https://github.com/bencentra/centrarium/archive/master.zip) and add all the files to your project. Add your blog posts to the `posts/` directory, and create your pages with the proper Jekyll front matter (see `posts.html` for an example).
+If you're just getting started with Jekyll, you can use this repository as a starting point for your own site. Just [download this project](https://github.com/bencentra/Libraunet/archive/master.zip) and add all the files to your project. Add your blog posts to the `posts/` directory, and create your pages with the proper Jekyll front matter (see `posts.html` for an example).
 
 If your site already uses Jekyll, follow these steps:
 
@@ -43,7 +43,7 @@ If your site already uses Jekyll, follow these steps:
 Don't forget to install Jekyll and other dependencies:
 ```bash
 # cd into project directory
-cd centrarium
+cd Libraunet
 # install Bundler if you don't have it already
 gem install bundler
 # install jekyll, jekyll-archives, jekyll-sitemap, and jekyll-paginate
@@ -54,7 +54,7 @@ bundle install
 
 This theme is ready to import into Stackbit. This theme can be deployed to Netlify and you can connect any headless CMS including Forestry, NetlifyCMS, DatoCMS or Contentful. 
 
-[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/bencentra/centrarium)
+[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/bencentra/Libraunet)
 
 ## Updating Header and Footer Links
 
@@ -231,7 +231,7 @@ Please follow these steps:
 
 ## License
 
-MIT. See [LICENSE.MD](https://github.com/bencentra/centrarium/blob/master/LICENSE.md).
+MIT. See [LICENSE.MD](https://github.com/bencentra/Libraunet/blob/master/LICENSE.md).
 
 [bencentra]: http://bencentra.com
 [bourbon]: http://bourbon.io/

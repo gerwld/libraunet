@@ -1,4 +1,4 @@
-// Primary site layout for Centrarium Theme
+// Primary site layout for Libraunet Theme
 
 /*
 *	Variables
@@ -151,6 +151,7 @@ pre code.hljs {
     	padding-left: $em-base;
     }
     img {
+			height: 100%;
       max-height: 2.5em;
       margin-top: 0.75em;
       padding-right: 1em;
@@ -265,6 +266,8 @@ pre code.hljs {
 			}
 			.subtitle {
 				font-size: 1.28rem;
+				max-width: 900px;
+				margin: 0 auto;
 			}
 		}
 	}

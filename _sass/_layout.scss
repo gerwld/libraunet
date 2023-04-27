@@ -92,7 +92,7 @@ pre code.hljs {
 		background-size: cover;
 		.title {
 			font-size: modular-scale(6);
-			margin-bottom: 0.2em;
+			margin-bottom: 0.4em;
 		}
 		.subtitle, .info {
 			font-size: modular-scale(1);
@@ -246,15 +246,33 @@ pre code.hljs {
 		}
 	}
 	.pagination {
-		padding-top: 2em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 2em 0;
 		text-align: center;
 		color: $medium-gray;
 		.page-number {
 			padding: 0 1em;
+			font-size: 1rem;
+			color: #323638;
 		}
-    a.newer-posts {
+		a.newer-posts:hover {
+			text-decoration: none;
+			opacity: 0.8;
+		} 
+		span.fa-stack,
+    a.newer-posts span {
+			display: block;
       text-decoration: none;
+			background-color: $blue;
+			border-radius: 5px;
+			font-size: 1.5rem;
+			text-align: center;
     }
+		span.fa-stack {
+			background-color: #d1d6dc;
+		}
 	}
 	.site-header-container {
 		color: $white;
@@ -371,12 +389,19 @@ pre code.hljs {
 	}
 }
 
+.fa-stack {
+	width: 2.8rem!important;
+	height: 2.8rem!important;
+	line-height: 2.8rem!important;
+	font-size: 1.8rem;
+}
+
 /*
 *	Footer
 */
 .site-footer {
 	$link-color: $white;
-	padding: 1em 1em 2em 1em;
+	padding: 2em 1em 4em 1em;
 	background-color: $highlight-color;
 	color: $white;
 	a {

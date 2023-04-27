@@ -92,6 +92,7 @@ pre code.hljs {
 		background-size: cover;
 		.title {
 			font-size: modular-scale(6);
+			margin-bottom: 0.2em;
 		}
 		.subtitle, .info {
 			font-size: modular-scale(1);
@@ -263,8 +264,7 @@ pre code.hljs {
 				font-size: modular-scale(6);
 			}
 			.subtitle {
-				font-style: italic;
-				font-size: modular-scale(1);
+				font-size: 1.28rem;
 			}
 		}
 	}

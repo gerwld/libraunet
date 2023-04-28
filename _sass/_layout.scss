@@ -101,7 +101,7 @@ pre code.hljs {
 	.scrim {
 		padding: 3em 1em;
 		&.has-cover {
-			background-color: rgba(0,0,0,0.2);
+			background-color: rgba(0,0,0,0.34);
 			padding: 4em 1em !important;
 			@include media($tablet) {
 				padding: 7em 1em !important;
@@ -137,6 +137,13 @@ pre code.hljs {
     @include media ($tablet) {
       display: none;
     }
+
+		svg {
+			vertical-align: middle;
+			object-position: 50% 50%;
+			color: #305492;
+		}
+	
   }
   // Nav menu
   .navigation-wrapper {
@@ -283,7 +290,7 @@ pre code.hljs {
 				font-size: modular-scale(6);
 			}
 			.subtitle {
-				font-size: 1.28rem;
+				font-size: 1.24rem;
 				max-width: 900px;
 				margin: 0 auto;
 			}
@@ -477,5 +484,20 @@ pre code.hljs {
 		a {
 			text-decoration: underline;
 		}
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	.page-content .site-header-container .site-header .subtitle {
+		font-size: 1.1rem;
+	}
+
+	.page-content .site-header-container .site-header .title {
+		font-size: 2rem;
+	}
+
+	.site-footer {
+		padding: 2em 15px 3em;
 	}
 }
